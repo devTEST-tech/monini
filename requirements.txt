@@ -1,4 +1,0 @@
-aiogram>=3.13,<4
-python-dotenv>=1.0
-tzdata
-aiohttp-socks>=0.9
