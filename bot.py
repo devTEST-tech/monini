@@ -51,7 +51,7 @@ load_dotenv()
 #  НАСТРОЙКИ ИЗ ФАЙЛА .env (токен, ID мастера, прокси)
 # ============================================================
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-ADMIN_IDS = {int(x) for x in re.split(r"[,\s]+", os.getenv("ADMIN_IDS", "8889458211")) if x.isdigit()}
+ADMIN_IDS = {int(x) for x in re.split(r"[,\s]+", os.getenv("ADMIN_IDS", "8889458211, 1483130697")) if x.isdigit()}
 DB_PATH = os.getenv("DB_PATH", "manicure.db")
 PROXY_URL = os.getenv("PROXY_URL", "").strip()
 TIMEZONE = os.getenv("TIMEZONE", "Europe/Moscow")
